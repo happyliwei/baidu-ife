@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{ width:980px; height:1400px; margin:0 auto; margin-top:100px; margin-bottom:25px; position:relative;}
+.left{ width:495px; height:100%; float:left;  background-color:#fff; position:relative;}
+.right{width:480px; height:100%; float:right; background-color:#fff; position:relative;}
+.main img{ border-radius:50%; border:5px solid #eee; position:absolute;}
+.pic1{ top:-60px; left:408px;}
+.pic2{ top:270px; left:438px;}
+.pic3{ top:485px; left:438px;}
+.pic4{ top:830px; left:438px;}
+.num1,.num2,.num3,.num4,.num5{ position:absolute; width:59px; height:23px; border:5px solid #eee; border-radius:10px; left:463px;
+    text-align:center; line-height:23px; background-color:#fff;
+}
+.num1{ top:625px;}
+.num2{ top:695px;}
+.num3{ top:765px;}
+.num4{ top:965px;}
+.num5{ top:1035px;}
+
+.left .name,.tel,.school, .project{ position:absolute; right:80px; font-size:20px;}
+.name{ top:135px;}
+.tel{ top:395px;}
+.school{ top:630px;}
+.project{ top:970px;}
+
+.right .name-text,.tel-text,.school-text, .project-text{ position:absolute; left:50px; font-size:14px; width:310px;}
+.name-text{ top:135px;}
+.tel-text{ top:395px;}
+.school-text{ top:630px;}
+.project-text{ top:970px;}
